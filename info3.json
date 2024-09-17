@@ -1,0 +1,9 @@
+{
+    "rules" : "! There are 10 mathematical exercises with the complexity of which you choose(easy/medium/hard).If you solve the exercise incorrectly,\nit will continue to spawn until it gets the correct answer. \n! You can also choose how many palyers will play the game(1 or 2). \n! If you won't start the game in 5 seconds it will stop. \n! If you write 'stop' during the game, it will end. \n! In the end you will have the count of your wins and losses. \n! If there are two players, it will also show the winner.",
+    "operators" : ["+", "-", "*"],
+    "min_op" : 3,
+    "max_op" : 15,
+    "total_problems" : 10,
+    "med_problems" : ["2+2*2", "5*6-6", "10-5-3", "4*2*3", "12//6-3","6*2+6", "18//2-2", "2*7+3-5", "25-7*3", "4//2//2", "7*3-1", "3*4+10"],
+    "hard_problems" : ["24+(3*8)-54//6", "5*(2+3)-18//2", "8+12-(2*7)", "(15-3)*4+10", "28-(2*5)+36//4", "8*(4+1)-12", "(5+3)(5-3)+9", "(16+9)//5*4-6", "2*(25-5)+5", "144//12+7*(5-3)"]
+}
